@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Monitor, Plus, Search, Filter, Edit, Trash2 } from "lucide-react";
 import toast from "react-hot-toast";
-import Topbar from "../../components/layout/Topbar";
+import TopBar from "../../components/layout/TopBar";
 import Loader, { EmptyState } from "../../components/ui/Loader";
 import Modal from "../../components/ui/Modal";
 import { StatusBadge } from "../../components/ui/Badge";

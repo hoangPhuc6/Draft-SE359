@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { BarChart3, TrendingUp } from "lucide-react";
 import toast from "react-hot-toast";
-import Topbar from "../../components/layout/Topbar";
+import TopBar from "../../components/layout/TopBar";
 import Loader from "../../components/ui/Loader";
 import { reportApi, labRoomApi } from "../../services/authService";
 import { apiMessage } from "../../lib/api";

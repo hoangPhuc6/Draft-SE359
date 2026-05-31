@@ -2,7 +2,7 @@ import { useAuthStore } from "../../store/authStore";
 import { StatusBadge } from "../ui/Badge";
 import { MobileMenuButton } from "./SideBar";
 
-export default function Topbar({ title, subtitle, actions }) {
+export default function TopBar({ title, subtitle, actions }) {
   const { user } = useAuthStore();
   return (
     <div className="bg-white border-b border-slate-200 px-4 lg:px-6 py-3 flex items-center justify-between gap-4">

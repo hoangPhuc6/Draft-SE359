@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Building2, Monitor, CalendarClock, AlertTriangle, ArrowRight } from "lucide-react";
-import Topbar from "../components/layout/Topbar";
+import TopBar from "../components/layout/TopBar";
 import Loader from "../components/ui/Loader";
 import { StatusBadge } from "../components/ui/Badge";
 import { useAuthStore } from "../store/authStore";

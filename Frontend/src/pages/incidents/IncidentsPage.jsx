@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AlertTriangle, Plus } from "lucide-react";
 import toast from "react-hot-toast";
-import Topbar from "../../components/layout/Topbar";
+import TopBar from "../../components/layout/TopBar";
 import Loader, { EmptyState } from "../../components/ui/Loader";
 import Pagination from "../../components/ui/Pagination";
 import Modal from "../../components/ui/Modal";

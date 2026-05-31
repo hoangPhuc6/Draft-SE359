@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { ArrowLeft, AlertTriangle, Loader2 } from "lucide-react";
 import toast from "react-hot-toast";
-import Topbar from "../../components/layout/Topbar";
+import TopBar from "../../components/layout/TopBar";
 import Loader from "../../components/ui/Loader";
 import Badge, { StatusBadge } from "../../components/ui/Badge";
 import { incidentApi } from "../../services/authService";

@@ -64,7 +64,7 @@ const NAV = [
   },
 ];
 
-export default function Sidebar({ mobileOpen, onMobileClose }) {
+export default function SideBar({ mobileOpen, onMobileClose }) {
   const { user, clear } = useAuthStore();
   const navigate = useNavigate();
   const [loggingOut, setLoggingOut] = useState(false);

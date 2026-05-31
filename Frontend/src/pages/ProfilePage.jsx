@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { KeyRound, UserCog } from "lucide-react";
 import toast from "react-hot-toast";
-import Topbar from "../components/layout/Topbar";
+import TopBar from "../components/layout/TopBar";
 import { StatusBadge } from "../components/ui/Badge";
 import { useAuthStore } from "../store/authStore";
 import { authApi, userApi } from "../services/authService";

@@ -1,6 +1,6 @@
 import { useAuthStore } from "../../store/authStore";
 import { StatusBadge } from "../ui/Badge";
-import { MobileMenuButton } from "./Sidebar";
+import { MobileMenuButton } from "./SideBar";
 
 export default function Topbar({ title, subtitle, actions }) {
   const { user } = useAuthStore();
